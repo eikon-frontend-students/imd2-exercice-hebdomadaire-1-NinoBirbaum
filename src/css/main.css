@@ -12,3 +12,48 @@ img,
 video {
   display: block;
 }
+
+body {
+  background-color: #e8eaee;
+  color: #000;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.dateprofil {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 19px;
+}
+.nomprofil {
+  font-size: 20px;
+  line-height: 24px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profil {
+  flex-direction: row;
+  max-height: 60px;
+}
+
+.carte {
+  padding: 15px;
+  background-color: white;
+  max-width: 400px;
+  border-radius: 25px;
+  margin: 100px;
+}
+.textecarte {
+  font-size: 27px;
+  line-height: 35px;
+}
+
+.infoprofil {
+  gap: 4px;
+}
+
+.profilimage {
+  width: 56px;
+}
